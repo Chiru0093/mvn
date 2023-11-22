@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools { 
-        maven 'Maven' 
+        maven 'MAVEN' 
 
     }
          stages {
@@ -25,7 +25,6 @@ pipeline {
             steps {
                 sh "mvn install" 
             }
-         }
-    
-    }
-}
+  }
+  }
+  }
